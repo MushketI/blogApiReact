@@ -1,0 +1,67 @@
+.container {
+  width: 100%;
+
+  .row {
+    width: 30%;
+    margin: 50px auto;
+    padding: 30px;
+
+    .alert {
+      width: 60%;
+      height: 30px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 1px;
+      background-color: #55b300;
+
+      span {
+        cursor: default;
+        font-size: 18px;
+        color: white;
+      }
+    }
+
+    h3 {
+      text-align: center;
+    }
+
+    form {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 60%;
+      margin: 0 auto;
+
+      label {
+        font-size: 20px;
+        font-weight: 400;
+      }
+
+      input {
+        margin-bottom: 10px;
+      }
+
+      button {
+        height: 25px;
+        font-size: 19px;
+        font-weight: 500;
+        margin-top: 10px;
+        background-color: teal;
+        border: none;
+        cursor: pointer;
+      }
+
+      .published {
+        margin-top: 15px;
+        display: flex;
+
+        input {
+          margin: 0 5px 0 0;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

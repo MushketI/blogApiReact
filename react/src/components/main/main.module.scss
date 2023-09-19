@@ -1,0 +1,23 @@
+.container {
+  width: 100%;
+
+  .row {
+    .aside {
+      height: 80px;
+      display: flex;
+      justify-content: end;
+      padding: 20px;
+
+      button {
+        height: 40px;
+        width: 150px;
+        cursor: pointer;
+      }
+    }
+
+    .content {
+      width: 70%;
+      margin: 0 auto;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .row {
+    width: 50%;
+    margin-top: 150px;
+
+    .aside {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      background-color: gainsboro;
+    }
+
+    .content {
+      table {
+        width: 100%;
+
+        td {
+          height: 30px;
+          text-align: center;
+          border-bottom: solid 1px gainsboro;
+        }
+      }
+    }
+  }
+}

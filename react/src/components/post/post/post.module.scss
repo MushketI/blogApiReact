@@ -1,0 +1,31 @@
+.container {
+  width: 300px;
+
+  .row {
+    height: 200px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 4px;
+
+    h3 {
+      background-color: lightblue;
+    }
+
+    p {
+      font-weight: 600;
+    }
+
+    .info {
+      display: flex;
+      flex-direction: column;
+      text-align: right;
+      padding: 30px 20px;
+
+      span {
+        font-size: 14px;
+        font-weight: 500;
+        color: rgb(53, 53, 53);
+      }
+    }
+  }
+}
